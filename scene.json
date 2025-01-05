@@ -1,0 +1,254 @@
+{
+  "sceneData": {
+    "metadata": {
+      "version": 4.6,
+      "type": "Object",
+      "generator": "Object3D.toJSON"
+    },
+    "geometries": [
+      {
+        "uuid": "08864bd6-7a9d-42c8-99ee-54732cf229ad",
+        "type": "CylinderGeometry",
+        "radiusTop": 0.5,
+        "radiusBottom": 0.5,
+        "height": 1,
+        "radialSegments": 32,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      }
+    ],
+    "materials": [
+      {
+        "uuid": "e598c5b3-4110-4d9a-ac9d-df9f762e7a3e",
+        "type": "MeshStandardMaterial",
+        "name": "Standard Material",
+        "color": 2120917,
+        "roughness": 0.5,
+        "metalness": 0.5,
+        "emissive": 0,
+        "envMapIntensity": 1,
+        "blendColor": 0
+      }
+    ],
+    "object": {
+      "uuid": "7d384761-5f68-415c-bb24-1f20c8b29f18",
+      "type": "Scene",
+      "layers": 1,
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "children": [
+        {
+          "uuid": "8983fbc9-55b4-499f-a427-5be438f20467",
+          "type": "DirectionalLight",
+          "name": "Main Light",
+          "castShadow": true,
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            5,
+            5,
+            5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 0.8,
+          "shadow": {
+            "mapSize": [
+              1024,
+              1024
+            ],
+            "camera": {
+              "uuid": "b410035e-b63a-47c1-b95e-ccc279875ebe",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          }
+        },
+        {
+          "uuid": "7958fa69-52e7-44e6-ac96-af8e15321d29",
+          "type": "DirectionalLight",
+          "name": "Fill Light",
+          "castShadow": true,
+          "layers": 1,
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -5,
+            5,
+            -5,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "color": 16777215,
+          "intensity": 0.4,
+          "shadow": {
+            "mapSize": [
+              1024,
+              1024
+            ],
+            "camera": {
+              "uuid": "28bfae3b-e739-4cc6-b808-bda11982176a",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          }
+        },
+        {
+          "uuid": "10b7e529-9ab9-42da-b5c6-8de8493a2d16",
+          "type": "Mesh",
+          "name": "Cylinder-gee0waskr",
+          "castShadow": true,
+          "receiveShadow": true,
+          "layers": 1,
+          "matrix": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            -11.36913229105808,
+            5.00791191724005,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "geometry": "08864bd6-7a9d-42c8-99ee-54732cf229ad",
+          "material": "e598c5b3-4110-4d9a-ac9d-df9f762e7a3e"
+        },
+        {
+          "uuid": "6461db63-2af3-432d-86f4-bb0d1d7784af",
+          "type": "Group",
+          "name": "spacex-dragon",
+          "castShadow": true,
+          "receiveShadow": true,
+          "layers": 1,
+          "matrix": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0.8227975929165208,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "lockedObjects": [],
+  "mediaData": {},
+  "materials": [
+    {
+      "type": "MeshStandardMaterial",
+      "uuid": "e598c5b3-4110-4d9a-ac9d-df9f762e7a3e",
+      "name": "Standard Material",
+      "color": "#205cd5",
+      "opacity": 1,
+      "transparent": false,
+      "metalness": 0.5,
+      "roughness": 0.5
+    }
+  ]
+}
